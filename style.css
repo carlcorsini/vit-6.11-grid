@@ -1,0 +1,21 @@
+.grid {
+  height: 96vh;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.col-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#square {
+  height: 150px;
+  width: 150px;
+}
